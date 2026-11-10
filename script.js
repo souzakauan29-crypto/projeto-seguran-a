@@ -12,3 +12,18 @@ function responder(correto) {
         resultado.style.color = "#c62828";
     }
 }
+
+function entrar() {
+    const senhaDigitada =
+        document.getElementById("senha").value;
+
+    const senhaCorreta = "1234";
+
+    if (senhaDigitada === senhaCorreta) {
+        document.getElementById("login").style.display = "none";
+        document.getElementById("conteudo").style.display = "block";
+    } else {
+        document.getElementById("erro").textContent =
+            "Senha incorreta! Tente novamente.";
+    }
+}

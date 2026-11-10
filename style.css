@@ -153,3 +153,41 @@ footer {
         padding: 35px 6%;
     }
 }
+
+#login {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #102a43;
+    padding: 20px;
+}
+
+.login-box {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 380px;
+    box-shadow: 0 5px 20px #0005;
+}
+
+.login-box h1 {
+    color: #087f8c;
+    margin-bottom: 15px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 14px;
+    margin: 20px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#erro {
+    color: red;
+    margin-top: 12px;
+}
