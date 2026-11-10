@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #263445;
+    line-height: 1.6;
+}
+
+header {
+    background: #102a43;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38d9a9;
+}
+
+section {
+    padding: 45px 8%;
+}
+
+section h2 {
+    color: #087f8c;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inicio {
+    background: #dff6f5;
+    text-align: center;
+    padding: 65px 12%;
+}
+
+.inicio p {
+    max-width: 750px;
+    margin: auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #00000012;
+}
+
+.card h3 {
+    color: #087f8c;
+    margin-bottom: 12px;
+}
+
+.alerta {
+    background: #fff0f0;
+    border-left: 5px solid #e63946;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 8px;
+    max-width: 850px;
+}
+
+.alerta strong {
+    color: #c62828;
+}
+
+#dicas ul {
+    max-width: 750px;
+    margin: auto;
+}
+
+#dicas li {
+    margin: 12px 0;
+}
+
+#quiz {
+    background: #e4f4f7;
+    text-align: center;
+}
+
+button {
+    display: block;
+    background: #087f8c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 20px;
+    margin: 12px auto;
+    max-width: 450px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #075c68;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background: #102a43;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 27px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    section {
+        padding: 35px 6%;
+    }
+}

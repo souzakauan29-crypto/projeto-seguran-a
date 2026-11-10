@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🔐 Segurança Digital</h1>
+    <p>Aprenda a proteger seus dados e navegar com segurança!</p>
+    <nav>
+        <a href="#leis">Leis Digitais</a>
+        <a href="#golpes">Golpes</a>
+        <a href="#dicas">Dicas</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+</header>
+
+<section class="inicio">
+    <h2>Sua segurança começa com a informação!</h2>
+    <p>
+        A internet oferece muitas oportunidades, mas também exige
+        cuidados. Aprenda a identificar ameaças e proteger suas
+        informações pessoais.
+    </p>
+</section>
+
+<section id="leis">
+    <h2>⚖️ Leis que protegem você</h2>
+
+    <div class="cards">
+        <article class="card">
+            <h3>LGPD</h3>
+            <p>
+                A Lei Geral de Proteção de Dados protege informações
+                pessoais, como nome, CPF, telefone e endereço.
+            </p>
+        </article>
+
+        <article class="card">
+            <h3>Marco Civil da Internet</h3>
+            <p>
+                Estabelece direitos e deveres dos usuários,
+                protegendo a privacidade e a liberdade na internet.
+            </p>
+        </article>
+
+        <article class="card">
+            <h3>Código de Defesa do Consumidor</h3>
+            <p>
+                Protege quem realiza compras online contra práticas
+                abusivas e garante o direito de arrependimento
+                nas condições previstas em lei.
+            </p>
+        </article>
+    </div>
+</section>
+
+<section id="golpes">
+    <h2>🚨 Como identificar golpes?</h2>
+
+    <div class="alerta">
+        <h3>Exemplo 1: Compra suspeita</h3>
+        <p>
+            "Sua compra de R$ 5.300 foi aprovada!
+            Clique no link para cancelar."
+        </p>
+        <strong>Sinal de alerta: urgência e link desconhecido.</strong>
+    </div>
+
+    <div class="alerta">
+        <h3>Exemplo 2: Prêmio falso</h3>
+        <p>
+            "Parabéns! Você ganhou R$ 2.000 no Pix!
+            Clique para resgatar."
+        </p>
+        <strong>Sinal de alerta: prêmio inesperado.</strong>
+    </div>
+</section>
+
+<section id="dicas">
+    <h2>🛡️ Dicas para sua proteção</h2>
+
+    <ul>
+        <li>Não clique em links desconhecidos.</li>
+        <li>Não compartilhe senhas ou códigos de segurança.</li>
+        <li>Utilize senhas fortes.</li>
+        <li>Ative a autenticação em duas etapas.</li>
+        <li>Confira os sites oficiais antes de realizar pagamentos.</li>
+        <li>Desconfie de ofertas muito vantajosas.</li>
+    </ul>
+</section>
+
+<section id="quiz">
+    <h2>🧠 Teste seus conhecimentos!</h2>
+
+    <p>Você recebeu uma mensagem dizendo que ganhou R$ 2.000 no Pix.
+    O que deve fazer?</p>
+
+    <button onclick="responder(false)">
+        Clicar imediatamente no link.
+    </button>
+
+    <button onclick="responder(true)">
+        Verificar a informação antes de qualquer ação.
+    </button>
+
+    <button onclick="responder(false)">
+        Informar minha senha para receber o prêmio.
+    </button>
+
+    <p id="resultado"></p>
+</section>
+
+<footer>
+    <p>Projeto educativo – Segurança Digital</p>
+    <p>Informação e prevenção são nossas melhores proteções!</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
